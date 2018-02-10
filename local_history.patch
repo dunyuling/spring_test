@@ -1,0 +1,21 @@
+Index: src/main/java/com/imooc/Status.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/imooc/Status.java	(date 1517577998000)
++++ src/main/java/com/imooc/Status.java	(date 1517577998000)
+@@ -16,10 +16,10 @@
+     }
+ 
+ 
+-    private String a;
++    private String abc;
+ 
+-    public void test(String firstName, String a) {
+-        String b = a + "";
++    public void test(String firstName) {
++        String b = this.abc + "";
+     }
+ 
+     public void test2(int age) {
